@@ -4,7 +4,7 @@ on : push
 
 jobs:
   linting:
-    runs-on: ubantu
+    runs-on: ubuntu-latest
 
     steps:
       - name : code checkout
